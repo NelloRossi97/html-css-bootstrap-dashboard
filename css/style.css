@@ -51,7 +51,12 @@ aside .badge:hover{
     background-color: #0b2f61;
     cursor: pointer;
 }
-
+#left-nav li{
+    transition: 0.5s;
+}
+#left-nav li:hover{
+    background-color:#6c757d;
+}
 .small-text{
     font-size: 0.5rem;
 }
