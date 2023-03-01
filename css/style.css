@@ -15,4 +15,6 @@ nav{
 
 #left-nav{
     width: 180px;
+    background-color: var(--side-bg);
+    background-image: url("../img/sidebar-bg.png");
 }
