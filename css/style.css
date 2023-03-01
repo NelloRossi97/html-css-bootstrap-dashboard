@@ -26,8 +26,12 @@ header nav{
 .modify-btn , .trash-btn{
     border: 1px solid #6c757d;
     color: #6c757d;
+    transition: 0.5s;
 }
-
+.modify-btn:hover , .trash-btn:hover{
+    border: 1px solid var(--bs-blue);
+    color: var(--bs-blue);
+}
 .modify-btn:after{
     content: '\f304';
     font-family: 'Font Awesome 6 Free';
@@ -41,6 +45,7 @@ header nav{
 
 td img{
     width: 2rem;
+    border-radius: 50%;
 }
 
 .nr-bg-pills{
@@ -56,6 +61,9 @@ aside .badge:hover{
 }
 #left-nav li:hover{
     background-color:#6c757d;
+}
+table tr:hover{
+    background-color: lightgray;
 }
 .small-text{
     font-size: 0.5rem;
