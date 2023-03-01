@@ -1,0 +1,18 @@
+:root{
+    --side-bg: #051e34;
+}
+.debug{
+    border: 1px solid red;
+}
+nav{
+    height: 60px;
+}
+
+.wrapper{
+    height: calc(100vh - 60px);
+    margin-top: 60px;
+}
+
+#left-nav{
+    width: 180px;
+}
