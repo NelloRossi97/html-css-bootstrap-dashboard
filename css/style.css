@@ -5,8 +5,9 @@
 .debug{
     border: 1px solid red;
 }
-nav{
+header nav{
     height: 60px;
+    background-color: #f8f8f8;
 }
 
 .wrapper{
@@ -14,9 +15,6 @@ nav{
     margin-top: 60px;
 }
 .main-container{
-    background-color: #f8f8f8;
-}
-nav{
     background-color: #f8f8f8;
 }
 #left-nav{
@@ -29,6 +27,7 @@ nav{
     border: 1px solid #6c757d;
     color: #6c757d;
 }
+
 .modify-btn:after{
     content: '\f304';
     font-family: 'Font Awesome 6 Free';
@@ -42,4 +41,17 @@ nav{
 
 td img{
     width: 2rem;
+}
+
+.nr-bg-pills{
+    background-color: #124a97;
+}
+
+aside .badge:hover{
+    background-color: #0b2f61;
+    cursor: pointer;
+}
+
+.small-text{
+    font-size: 0.6rem;
 }
