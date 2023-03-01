@@ -1,6 +1,7 @@
 :root{
     --side-bg: #051e34;
 }
+
 .debug{
     border: 1px solid red;
 }
@@ -12,7 +13,12 @@ nav{
     height: calc(100vh - 60px);
     margin-top: 60px;
 }
-
+.main-container{
+    background-color: #f8f8f8;
+}
+nav{
+    background-color: #f8f8f8;
+}
 #left-nav{
     width: 180px;
     background-color: var(--side-bg);
