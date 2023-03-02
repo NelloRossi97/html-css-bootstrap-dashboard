@@ -17,6 +17,10 @@ header a{
 header a:hover i{
     color: black;
 }
+input[type="search"].form-control:focus{
+    border-color: lightgray;
+    box-shadow: none;
+}
 .wrapper{
     height: calc(100vh - 60px);
     margin-top: 60px;
@@ -77,6 +81,9 @@ table tr:hover{
     width: 100vw;
 }
 
+.my-bg-grey{
+    background-color: #e5e5e5;
+}
 @media screen and (max-width: 575px){
     #left-nav{
         width: 70px;
