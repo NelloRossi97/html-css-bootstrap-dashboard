@@ -63,9 +63,14 @@ td img{
     background-color: #124a97;
 }
 
-aside .badge:hover{
+.btn.badge:hover{
     background-color: white;
     color: var(--bs-blue);
+    cursor: pointer;
+}
+.badge:hover{
+    background-color: #051e34;
+    color: white;
     cursor: pointer;
 }
 #left-nav li{
