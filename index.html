@@ -10,8 +10,41 @@
   </head>
   <body>
     <header class="w-100 fixed-top">
-        <nav class="d-flex align-items-center px-4">
-            nav
+        <nav class="px-1">
+            <ul class="nav h-100 d-flex justify-content-between flex-nowrap">
+                <!-- LOGO -->
+                <li class="nav-item d-flex align-items-center h-100">
+                    <img src="./img/mobile-logo.png" alt="logo" id="logo-small" class="h-100 d-md-none">
+                    <img src="./img/logo.svg" alt="logo" id="logo-big" class="d-none d-sm-block">
+                </li>
+                <!-- SEARCH BAR -->
+                <li class="nav-item d-flex align-items-center w-75 mx-3">
+                    <input type="text" name="nav-search" id="nav-search" class="w-100">
+                </li>
+                <!-- ICONS -->
+                <li class="nav-item d-flex align-items-center me-3">
+                    <a href="">
+                        <i class="fa-solid fa-list-ul d-none d-lg-block px-2"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-circle-question d-none d-lg-block px-2"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-solid fa-ellipsis-vertical d-none d-lg-block px-2"></i>
+                    </a>
+                    <!-- BELL ICON DROPDOWN -->
+                    <div class="dropdown">
+                        <button class="btn text-warning" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-bell"></i>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
         </nav>
     </header>
 
@@ -122,24 +155,24 @@
         <!-- left nav -->
         <aside id="left-nav" class="h-100 d-flex flex-column align-items-center justify-content-between flex-shrink-0 text-white p-4">
             <div class="left-nav-top">
-                 <ul class="nav nav-pills flex-column mb-auto">
+                <ul class="nav nav-pills flex-column mb-auto">
                     <li class="nav-item rounded-3">
-                    <a href="#" class="nav-link text-white" aria-current="page">
-                        <i class="fa fa-home pe-1"></i>
-                        <span class="d-none d-sm-inline">Home</span>
-                    </a>
+                        <a href="#" class="nav-link text-white" aria-current="page">
+                            <i class="fa fa-home pe-1"></i>
+                            <span class="d-none d-sm-inline">Home</span>
+                        </a>
                     </li>
                     <li class="rounded-3">
-                    <a href="#" class="nav-link text-white">
-                        <i class="fa-solid fa-chart-simple pe-2"></i>
-                        <span class="d-none d-sm-inline">Stats</span>
-                    </a>
+                        <a href="#" class="nav-link text-white">
+                            <i class="fa-solid fa-chart-simple pe-2"></i>
+                            <span class="d-none d-sm-inline">Stats</span>
+                        </a>
                     </li>
                     <li class="rounded-3">
-                    <a href="#" class="nav-link text-white">
-                        <i class="fa-solid fa-signal pe-1"></i>
-                        <span class="d-none d-sm-inline">Signals</span>
-                    </a>
+                        <a href="#" class="nav-link text-white">
+                            <i class="fa-solid fa-signal pe-1"></i>
+                            <span class="d-none d-sm-inline">Signals</span>
+                        </a>
                     </li>
                 </ul>
             </div>
