@@ -65,9 +65,7 @@ aside .badge:hover{
 table tr:hover{
     background-color: lightgray;
 }
-.small-text{
-    font-size: 0.5rem;
-}
+
 .offcanvas.offcanvas-end{
     width: 100vw;
 }
