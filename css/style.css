@@ -64,7 +64,8 @@ td img{
 }
 
 aside .badge:hover{
-    background-color: #0b2f61;
+    background-color: white;
+    color: var(--bs-blue);
     cursor: pointer;
 }
 #left-nav li{
