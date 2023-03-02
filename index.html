@@ -22,7 +22,98 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-                ciaoooooooooooo
+                <div class="col-md-7 col-lg-8 w-100">
+                    <h4 class="mb-3">Billing address</h4>
+                    <form class="needs-validation" novalidate="">
+                        <div class="row g-3">
+                            <!-- NOME -->
+                            <div class="col-sm-6">
+                                <label for="firstName" class="form-label">Nome</label>
+                                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                                <div class="invalid-feedback">
+                                    Valid first name is required.
+                                </div>
+                            </div>
+                            <!-- COGNOME -->
+                            <div class="col-sm-6">
+                                <label for="lastName" class="form-label">Cognome</label>
+                                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                                <div class="invalid-feedback">
+                                    Valid last name is required.
+                                </div>
+                            </div>
+                            <!-- EMAIL -->
+                            <div class="col-12 col-md-6">
+                                <label for="email" class="form-label">Email</label>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text">@</span>
+                                    <input type="email" class="form-control" id="email" placeholder="you@example.com" required="">
+                                    <div class="invalid-feedback">
+                                        Please enter a valid email address.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- PASSWORD -->
+                            <div class="col-12 col-md-6">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" required="">
+                                <div class="invalid-feedback">
+                                    Please enter your password.
+                                </div>
+                            </div>
+                            <!-- INDIRIZZO -->
+                            <div class="col-12">
+                                <label for="address" class="form-label">Indirizzo</label>
+                                <input type="text" class="form-control" id="address2" placeholder="Via ...">
+                            </div>
+                            <!-- CITTA -->
+                            <div class="col-md-5">
+                                <label for="country" class="form-label">Citt&agrave;</label>
+                                <input type="password" class="form-control" id="password" required="">
+                                <div class="invalid-feedback">
+                                    Please enter your password.
+                                </div>
+                                <div class="invalid-feedback">
+                                    Please select a valid country.
+                                </div>
+                            </div>
+                            <!-- STATO -->
+                            <div class="col-md-4">
+                                <label for="state" class="form-label">Stato</label>
+                                <select class="form-select" id="state" required="">
+                                    <option value="">Scegli</option>
+                                    <option>Italia</option>
+                                    <option>Francia</option>
+                                    <option>Svizzera</option>
+                                    <option>Germania</option>
+                                    <option>Spagna</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please provide a valid state.
+                                </div>
+                            </div>
+                            <!-- ZIP -->
+                            <div class="col-md-3">
+                                <label for="zip" class="form-label">Zip</label>
+                                <input type="text" class="form-control" id="zip" placeholder="" required="">
+                                <div class="invalid-feedback">
+                                    Zip code required.
+                                </div>
+                            </div>
+                            <!-- FOTO -->
+                            <div class="col">
+                                <label for="upload-img" class="form-label">Scegli foto</label>
+                                <input type="file" class="custom-file-input form-control" id="upload-img" required="">
+                            </div>
+                            <!-- BUTTONS -->
+                            <div>
+                                <button type="submit" class="btn btn-primary w-25 d-inline">Salva</button>
+                                <button type="reset" class="btn btn-warning w-25">Svuota</button>
+                            </div>
+                            
+                        </div>
+                    </form>
+                  </div>
             </div>
         </div>
 
