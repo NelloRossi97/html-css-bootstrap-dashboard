@@ -68,9 +68,24 @@ table tr:hover{
 .small-text{
     font-size: 0.5rem;
 }
+.offcanvas.offcanvas-end{
+    width: 100vw;
+}
 
 @media screen and (max-width: 575px){
     #left-nav{
         width: 70px;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .offcanvas.offcanvas-end{
+        width: 60vw;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .offcanvas.offcanvas-end{
+        width: 40vw;
     }
 }

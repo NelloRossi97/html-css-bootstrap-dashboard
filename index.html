@@ -16,6 +16,16 @@
     </header>
 
     <main class="wrapper d-flex overflow-hidden">
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci nuovo studente</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                ciaoooooooooooo
+            </div>
+        </div>
+
         <!-- left nav -->
         <aside id="left-nav" class="h-100 d-flex flex-column align-items-center justify-content-between flex-shrink-0 text-white p-4">
             <div class="left-nav-top">
@@ -85,7 +95,8 @@
                         <span class="fs-3">130</span>
                     </div>
                     <div class="col-md-3 d-none d-md-flex justify-content-end">
-                        <p>Nuovo Studente</p>
+                        <p class="me-2">Nuovo Studente</p>
+                        <button class="btn badge nr-bg-pills fs-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
                     </div>
                 </div>   
             </aside>
